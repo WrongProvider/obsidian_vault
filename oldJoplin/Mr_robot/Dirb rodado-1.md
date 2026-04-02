@@ -1,0 +1,181 @@
+Dirb rodado
+
+==> DIRECTORY: http://192.168.56.101/0/                                                             
+==> DIRECTORY: http://192.168.56.101/admin/                                                         
++ http://192.168.56.101/atom (CODE:301|SIZE:0)                                                      
+==> DIRECTORY: http://192.168.56.101/audio/                                                         
+==> DIRECTORY: http://192.168.56.101/blog/                                                          
+==> DIRECTORY: http://192.168.56.101/css/                                                           
++ http://192.168.56.101/dashboard (CODE:302|SIZE:0)                                                 
++ http://192.168.56.101/favicon.ico (CODE:200|SIZE:0)                                               
+==> DIRECTORY: http://192.168.56.101/feed/                                                          
+==> DIRECTORY: http://192.168.56.101/image/                                                         
+==> DIRECTORY: http://192.168.56.101/Image/                                                         
+==> DIRECTORY: http://192.168.56.101/images/                                                        
++ http://192.168.56.101/index.html (CODE:200|SIZE:1104)                                             
++ http://192.168.56.101/index.php (CODE:301|SIZE:0)                                                 
++ http://192.168.56.101/intro (CODE:200|SIZE:516314)                                                
+==> DIRECTORY: http://192.168.56.101/js/                                                            
++ http://192.168.56.101/license (CODE:200|SIZE:309)                                                 
++ http://192.168.56.101/login (CODE:302|SIZE:0)                                                     
++ http://192.168.56.101/page1 (CODE:301|SIZE:0)                                                     
++ http://192.168.56.101/phpmyadmin (CODE:403|SIZE:94)                                               
++ http://192.168.56.101/rdf (CODE:301|SIZE:0)                                                       
++ http://192.168.56.101/readme (CODE:200|SIZE:64)                                                   
++ http://192.168.56.101/robots (CODE:200|SIZE:41)                                                   
++ http://192.168.56.101/robots.txt (CODE:200|SIZE:41)                                               
++ http://192.168.56.101/rss (CODE:301|SIZE:0)                                                       
++ http://192.168.56.101/rss2 (CODE:301|SIZE:0)                                                      
++ http://192.168.56.101/sitemap (CODE:200|SIZE:0)                                                   
++ http://192.168.56.101/sitemap.xml (CODE:200|SIZE:0)                                               
+==> DIRECTORY: http://192.168.56.101/video/                                                         
+==> DIRECTORY: http://192.168.56.101/wp-admin/                                                      
++ http://192.168.56.101/wp-config (CODE:200|SIZE:0)                                                 
+==> DIRECTORY: http://192.168.56.101/wp-content/                                                    
++ http://192.168.56.101/wp-cron (CODE:200|SIZE:0)                                                   
+==> DIRECTORY: http://192.168.56.101/wp-includes/                                                   
++ http://192.168.56.101/wp-links-opml (CODE:200|SIZE:227)                                           
++ http://192.168.56.101/wp-load (CODE:200|SIZE:0)                                                   
++ http://192.168.56.101/wp-login (CODE:200|SIZE:2620)                                               
++ http://192.168.56.101/wp-mail (CODE:500|SIZE:3064)                                                
++ http://192.168.56.101/wp-settings (CODE:500|SIZE:0)                                               
++ http://192.168.56.101/wp-signup (CODE:302|SIZE:0)                                                 
++ http://192.168.56.101/xmlrpc (CODE:405|SIZE:42)                                                   
++ http://192.168.56.101/xmlrpc.php (CODE:405|SIZE:42)                                               
+                                                                                                    
+---- Entering directory: http://192.168.56.101/0/ ----
++ http://192.168.56.101/0/atom (CODE:301|SIZE:0)                                                    
+==> DIRECTORY: http://192.168.56.101/0/feed/                                                        
++ http://192.168.56.101/0/index.php (CODE:301|SIZE:0)                                               
++ http://192.168.56.101/0/rdf (CODE:301|SIZE:0)                                                     
++ http://192.168.56.101/0/rss (CODE:301|SIZE:0)                                                     
++ http://192.168.56.101/0/rss2 (CODE:301|SIZE:0)                                                    
+                                                                                                    
+---- Entering directory: http://192.168.56.101/admin/ ----
++ http://192.168.56.101/admin/atom (CODE:301|SIZE:0)                                                
+==> DIRECTORY: http://192.168.56.101/admin/audio/                                                   
+==> DIRECTORY: http://192.168.56.101/admin/css/                                                     
+==> DIRECTORY: http://192.168.56.101/admin/feed/                                                    
+==> DIRECTORY: http://192.168.56.101/admin/images/                                                  
++ http://192.168.56.101/admin/index (CODE:200|SIZE:1188)                                            
++ http://192.168.56.101/admin/index.html (CODE:200|SIZE:1188)                                       
++ http://192.168.56.101/admin/index.php (CODE:301|SIZE:0)                                           
++ http://192.168.56.101/admin/intro (CODE:200|SIZE:516314)                                          
+==> DIRECTORY: http://192.168.56.101/admin/js/                                                      
++ http://192.168.56.101/admin/rdf (CODE:301|SIZE:0)                                                 
++ http://192.168.56.101/admin/robot (CODE:200|SIZE:30178875)                                        
++ http://192.168.56.101/admin/robots (CODE:200|SIZE:43)                                             
++ http://192.168.56.101/admin/robots.txt (CODE:200|SIZE:43)                                         
++ http://192.168.56.101/admin/rss (CODE:301|SIZE:0)                                                 
++ http://192.168.56.101/admin/rss2 (CODE:301|SIZE:0)                                                
+==> DIRECTORY: http://192.168.56.101/admin/video/                                                   
+                                                                                                    
+---- Entering directory: http://192.168.56.101/audio/ ----
++ http://192.168.56.101/audio/atom (CODE:301|SIZE:0)                                                
+http://192.168.56.101/admin/                                                                         + Going to next directory.                                                                          
+                                                                                                    
+---- Entering directory: http://192.168.56.101/blog/ ----
++ http://192.168.56.101/blog/atom (CODE:301|SIZE:0)                                                 
+==> DIRECTORY: http://192.168.56.101/blog/feed/                                                     
++ http://192.168.56.101/blog/index.php (CODE:301|SIZE:0)                                            
++ http://192.168.56.101/blog/rdf (CODE:301|SIZE:0)                                                  
++ http://192.168.56.101/blog/rss (CODE:301|SIZE:0)                                                  
++ http://192.168.56.101/blog/rss2 (CODE:301|SIZE:0)                                                 
+                                                                                                    
+---- Entering directory: http://192.168.56.101/css/ ----
++ http://192.168.56.101/css/atom (CODE:301|SIZE:0)                                                  
+==> DIRECTORY: http://192.168.56.101/css/feed/                                                      
++ http://192.168.56.101/css/index.php (CODE:301|SIZE:0)                                             
++ http://192.168.56.101/css/rdf (CODE:301|SIZE:0)                                                   
++ http://192.168.56.101/css/rss (CODE:301|SIZE:0)                                                   
++ http://192.168.56.101/css/rss2 (CODE:301|SIZE:0)                                                  
+                                                                                                    
+---- Entering directory: http://192.168.56.101/feed/ ----
+==> DIRECTORY: http://192.168.56.101/feed/atom/                                                     
++ http://192.168.56.101/feed/feed (CODE:301|SIZE:0)                                                 
++ http://192.168.56.101/feed/index.php (CODE:301|SIZE:0)                                            
+==> DIRECTORY: http://192.168.56.101/feed/rdf/                                                      
++ http://192.168.56.101/feed/rss (CODE:301|SIZE:0)                                                  
++ http://192.168.56.101/feed/rss2 (CODE:301|SIZE:0)                                                 
+                                                                                                    
+---- Entering directory: http://192.168.56.101/image/ ----
+==> DIRECTORY: http://192.168.56.101/image/0/                                                       
+==> DIRECTORY: http://192.168.56.101/image/00/                                                      
++ http://192.168.56.101/image/01 (CODE:200|SIZE:11871)                                              
++ http://192.168.56.101/image/02 (CODE:200|SIZE:11901)                                              
++ http://192.168.56.101/image/03 (CODE:200|SIZE:11901)                                              
++ http://192.168.56.101/image/04 (CODE:200|SIZE:11901)                                              
++ http://192.168.56.101/image/05 (CODE:200|SIZE:11901)                                              
++ http://192.168.56.101/image/06 (CODE:200|SIZE:11901)                                              
++ http://192.168.56.101/image/07 (CODE:200|SIZE:11901)                                              
++ http://192.168.56.101/image/08 (CODE:200|SIZE:11901)                                              
++ http://192.168.56.101/image/09 (CODE:200|SIZE:11901)                                              
++ http://192.168.56.101/image/1 (CODE:200|SIZE:11870)                                               
++ http://192.168.56.101/image/10 (CODE:200|SIZE:11904)                                              
++ http://192.168.56.101/image/100 (CODE:200|SIZE:11908)                                             
++ http://192.168.56.101/image/1000 (CODE:200|SIZE:11912)                                            
++ http://192.168.56.101/image/1001 (CODE:200|SIZE:11912)                                            
++ http://192.168.56.101/image/101 (CODE:200|SIZE:11908)                                             
++ http://192.168.56.101/image/102 (CODE:200|SIZE:11908)                                             
++ http://192.168.56.101/image/103 (CODE:200|SIZE:11908)                                             
++ http://192.168.56.101/image/11 (CODE:200|SIZE:11904)                                              
++ http://192.168.56.101/image/12 (CODE:200|SIZE:11904)                                              
++ http://192.168.56.101/image/123 (CODE:200|SIZE:11908)                                             
++ http://192.168.56.101/image/13 (CODE:200|SIZE:11904)                                              
++ http://192.168.56.101/image/14 (CODE:200|SIZE:11904)                                              
++ http://192.168.56.101/image/15 (CODE:200|SIZE:11904)                                              
++ http://192.168.56.101/image/1990 (CODE:200|SIZE:11912)                                            
++ http://192.168.56.101/image/1991 (CODE:200|SIZE:11912)                                            
++ http://192.168.56.101/image/1992 (CODE:200|SIZE:11912)                                            
++ http://192.168.56.101/image/1993 (CODE:200|SIZE:11912)                                            
++ http://192.168.56.101/image/1994 (CODE:200|SIZE:11912)                                            
++ http://192.168.56.101/image/1995 (CODE:200|SIZE:11912)                                            
++ http://192.168.56.101/image/1996 (CODE:200|SIZE:11912)                                            
++ http://192.168.56.101/image/1997 (CODE:200|SIZE:11912)                                            
++ http://192.168.56.101/image/1998 (CODE:200|SIZE:11912)                                            
++ http://192.168.56.101/image/1999 (CODE:200|SIZE:11912)                                            
++ http://192.168.56.101/image/2 (CODE:200|SIZE:11900)                                               
++ http://192.168.56.101/image/20 (CODE:200|SIZE:11904)                                              
++ http://192.168.56.101/image/200 (CODE:200|SIZE:11908)                                             
++ http://192.168.56.101/image/2000 (CODE:200|SIZE:11912)                                            
++ http://192.168.56.101/image/2001 (CODE:200|SIZE:11912)                                            
++ http://192.168.56.101/image/2002 (CODE:200|SIZE:11912)                                            
++ http://192.168.56.101/image/2003 (CODE:200|SIZE:11912)                                            
++ http://192.168.56.101/image/2004 (CODE:200|SIZE:11912)                                            
++ http://192.168.56.101/image/2005 (CODE:200|SIZE:11912)                                            
++ http://192.168.56.101/image/2006 (CODE:200|SIZE:11912)                                            
++ http://192.168.56.101/image/2007 (CODE:200|SIZE:11912)                                            
++ http://192.168.56.101/image/2008 (CODE:200|SIZE:11912)                                            
++ http://192.168.56.101/image/2009 (CODE:200|SIZE:11912)                                            
++ http://192.168.56.101/image/2010 (CODE:200|SIZE:11912)                                            
++ http://192.168.56.101/image/2011 (CODE:200|SIZE:11912)                                            
++ http://192.168.56.101/image/2012 (CODE:200|SIZE:11912)                                            
++ http://192.168.56.101/image/2013 (CODE:200|SIZE:11912)                                            
++ http://192.168.56.101/image/2014 (CODE:200|SIZE:11912)                                            
++ http://192.168.56.101/image/21 (CODE:200|SIZE:11904)                                              
++ http://192.168.56.101/image/22 (CODE:200|SIZE:11904)                                              
++ http://192.168.56.101/image/2257 (CODE:200|SIZE:11912)                                            
++ http://192.168.56.101/image/23 (CODE:200|SIZE:11904)                                              
++ http://192.168.56.101/image/24 (CODE:200|SIZE:11904)                                              
++ http://192.168.56.101/image/25 (CODE:200|SIZE:11904)                                              
++ http://192.168.56.101/image/3 (CODE:200|SIZE:11900)                                               
++ http://192.168.56.101/image/30 (CODE:200|SIZE:11904)                                              
++ http://192.168.56.101/image/300 (CODE:200|SIZE:11908)                                             
++ http://192.168.56.101/image/32 (CODE:200|SIZE:11904)                                              
++ http://192.168.56.101/image/4 (CODE:200|SIZE:11900)                                               
++ http://192.168.56.101/image/400 (CODE:200|SIZE:11908)                                             
++ http://192.168.56.101/image/401 (CODE:200|SIZE:11908)                                             
++ http://192.168.56.101/image/403 (CODE:200|SIZE:11908)                                             
++ http://192.168.56.101/image/404 (CODE:200|SIZE:11908)                                             
++ http://192.168.56.101/image/42 (CODE:200|SIZE:11904)                                              
++ http://192.168.56.101/image/5 (CODE:200|SIZE:11900)                                               
++ http://192.168.56.101/image/50 (CODE:200|SIZE:11904)                                              
++ http://192.168.56.101/image/500 (CODE:200|SIZE:11908)                                             
++ http://192.168.56.101/image/51 (CODE:200|SIZE:11904)                                              
++ http://192.168.56.101/image/6 (CODE:200|SIZE:11900)                                               
++ http://192.168.56.101/image/64 (CODE:200|SIZE:11904)                                              
++ http://192.168.56.101/image/7 (CODE:200|SIZE:11900)                                               
++ http://192.168.56.101/image/8 (CODE:200|SIZE:11900)                                               
++ http://192.168.56.101/image/9 (CODE:200|SIZE:11900)                                               
++ http://192.168.56.101/image/96 (CODE:200|SIZE:11904)                                              
++ http://192.168.56.101/image/atom (CODE:301|SIZE:0)     

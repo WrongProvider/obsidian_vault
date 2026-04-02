@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "2026-02-26 - comandos uteis para tshoot.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "2026-02-26 - comandos uteis para tshoot"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de arquivos"
             }
           },
           {
@@ -184,18 +184,63 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false,
       "obsidian-git:Open Git source control": false
     }
   },
   "active": "97f39d9f376e1823",
   "lastOpenFiles": [
-    "test.md"
+    "1- Projeto ou algo que tu tenha orgulho..md",
+    "2026-02-26 - comandos uteis para tshoot.md",
+    "Estudos de programação/Biblia do programador.md",
+    "Entrevistas.md",
+    "Links.md",
+    "oldJoplin/SECURITY+/Chapter 8 - Using Risk Management Tools-1.md",
+    "Estudos de programação",
+    "oldJoplin/SECURITY+/1.2 - Given a scenario, analyze potential indicato-1.md",
+    "oldJoplin/SECURITY+/1.2 - Given a scenario, analyze potential indicato.md",
+    "oldJoplin/comandos/hashcat-1.md",
+    "oldJoplin/comandos/h-5tjn91kn.online-metrix.net --_ 192.225.157.163-1.md",
+    "oldJoplin/comandos/h-5tjn91kn.online-metrix.net --_ 192.225.157.163.md",
+    "oldJoplin/comandos/dmesg.md",
+    "oldJoplin/comandos/certificado windows-1.md",
+    "oldJoplin/comandos/certificado windows.md",
+    "oldJoplin/coisas legais/nishang-1.md",
+    "oldJoplin/coisas legais/nishang.md",
+    "oldJoplin/coisas legais/https___pastebin.com_k7cRprfK-1.md",
+    "oldJoplin/coisas legais/https___pastebin.com_k7cRprfK.md",
+    "oldJoplin/ciencia de dados/Teoria.md",
+    "oldJoplin/ciencia de dados/Teoria-1.md",
+    "oldJoplin/ciencia de dados/aula 3.md",
+    "oldJoplin/BUGBOUNTY - NUBANK/achados.md",
+    "oldJoplin/BUGBOUNTY - NUBANK/_api_proxy_AJxL5LD4VgmFlWxoi5zx18PgxP7atqW3BA.aHR0.md",
+    "oldJoplin/A REDTEAM/Active Directory.md",
+    "oldJoplin/A - GOAD pentest/credentials.md",
+    "README.md",
+    "oldJoplin/_resources/6-public-private-route-5.svg",
+    "oldJoplin/_resources/6-public-private-route-4.svg",
+    "oldJoplin/_resources/6-public-private-route-3.svg",
+    "oldJoplin/_resources/422ce47fa788c3d7cf8c114ff3f06696-1.png",
+    "oldJoplin/_resources/ac2bc8d5b36f68037a4b73a45f779a03-1.png",
+    "oldJoplin/_resources/02ab86629aac1c6dc359a0c856b0f6a8-1.png",
+    "oldJoplin/_resources/6f894bc0347f59775d7f06b1773a80fe-1.png",
+    "oldJoplin/_resources/1ebfdcbd7e1c8798155fb66882c1a565-1.png",
+    "oldJoplin/_resources/20b4813894c63daa036a219c486b531f-1.png",
+    "oldJoplin/_resources/0c5231f772747ec4c6b8ca50e167c3cf-1.png",
+    "oldJoplin/SentinelOne",
+    "oldJoplin/B - Azure",
+    "oldJoplin/B - Bluetem SOC-CSIRT",
+    "oldJoplin/GNS3/-1",
+    "oldJoplin/GNS3",
+    "oldJoplin/A REDTEAM",
+    "oldJoplin/fortinet",
+    "oldJoplin/Pentest/dns-attacks",
+    "oldJoplin/Pentest/reverse_exploit"
   ]
 }

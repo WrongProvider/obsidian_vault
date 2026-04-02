@@ -1,0 +1,3 @@
+pratica 
+
+google firing range

@@ -1,0 +1,3 @@
+DNS over HTTPS
+
+opa mexendo nos relatórios notei uma coisinha chamada DOH (DNS over HTTPS) a sophos caracteriza ela como risco nivel 5.Pesquisando um pouco a respeito, achei um post bem legal que explica o porque dela ser perigosa: https://www.zdnet.com/article/dns-over-https-causes-more-problems-than-it-solves-experts-say/ Basicamente isso muda como o DNS é usado, ao invez de usar plaintext na porta 53 ela usa trafego encriptado na 443. Algo que pode ser usado para fazer bypass no fw

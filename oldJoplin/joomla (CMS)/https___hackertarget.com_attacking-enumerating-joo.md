@@ -1,0 +1,1 @@
+https://hackertarget.com/attacking-enumerating-joomla/

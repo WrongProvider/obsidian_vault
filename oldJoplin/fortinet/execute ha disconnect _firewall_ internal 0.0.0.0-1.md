@@ -1,0 +1,1 @@
+execute ha disconnect <firewall> internal 0.0.0.0

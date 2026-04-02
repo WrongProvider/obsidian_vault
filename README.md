@@ -1,4 +1,6 @@
 # obsidian_vault
 backup obsidian
 
-teste do backup funfou?
+aqui estão todas as minhas anotações de estudo. Em programação. 
+
+* verificar se tem como migrar as anotações do *
