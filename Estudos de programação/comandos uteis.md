@@ -1,0 +1,1 @@
+find . -type f -name "*.py" -exec sed -i 's/from backend\./from /g' {} +

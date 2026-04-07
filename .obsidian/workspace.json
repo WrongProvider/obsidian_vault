@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-02-26 - comandos uteis para tshoot.md",
+                "file": "Estudos de programação/git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-02-26 - comandos uteis para tshoot"
+              "title": "git"
             }
           }
         ]
@@ -196,9 +196,15 @@
   },
   "active": "97f39d9f376e1823",
   "lastOpenFiles": [
-    "1- Projeto ou algo que tu tenha orgulho..md",
     "2026-02-26 - comandos uteis para tshoot.md",
+    "oldJoplin/SOPHOS/como funciona o web filter-1.md",
+    "oldJoplin/SOPHOS/certificado.md",
+    "Estudos de programação/git.md",
     "Estudos de programação/Biblia do programador.md",
+    "Estudos de programação/comandos uteis.md",
+    "Estudos de programação/NVIM.md",
+    "Estudos de programação/Python.md",
+    "1- Projeto ou algo que tu tenha orgulho..md",
     "Entrevistas.md",
     "Links.md",
     "oldJoplin/SECURITY+/Chapter 8 - Using Risk Management Tools-1.md",
@@ -217,12 +223,6 @@
     "oldJoplin/coisas legais/https___pastebin.com_k7cRprfK.md",
     "oldJoplin/ciencia de dados/Teoria.md",
     "oldJoplin/ciencia de dados/Teoria-1.md",
-    "oldJoplin/ciencia de dados/aula 3.md",
-    "oldJoplin/BUGBOUNTY - NUBANK/achados.md",
-    "oldJoplin/BUGBOUNTY - NUBANK/_api_proxy_AJxL5LD4VgmFlWxoi5zx18PgxP7atqW3BA.aHR0.md",
-    "oldJoplin/A REDTEAM/Active Directory.md",
-    "oldJoplin/A - GOAD pentest/credentials.md",
-    "README.md",
     "oldJoplin/_resources/6-public-private-route-5.svg",
     "oldJoplin/_resources/6-public-private-route-4.svg",
     "oldJoplin/_resources/6-public-private-route-3.svg",
