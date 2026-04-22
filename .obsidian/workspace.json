@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudos de programação/git.md",
+                "file": "Entrevistas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git"
+              "title": "Entrevistas"
+            }
+          },
+          {
+            "id": "2f3b60d0ed0899f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Estudos de programação/NVIM.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "NVIM"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,19 +209,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "97f39d9f376e1823",
+  "active": "2f3b60d0ed0899f7",
   "lastOpenFiles": [
     "2026-02-26 - comandos uteis para tshoot.md",
-    "oldJoplin/SOPHOS/como funciona o web filter-1.md",
-    "oldJoplin/SOPHOS/certificado.md",
+    "Entrevistas.md",
+    "Sem título.md",
+    "README.md",
+    "Links.md",
+    "Estudos de programação/tests.md",
+    "Estudos de programação/Python.md",
+    "Estudos de programação/NVIM.md",
     "Estudos de programação/git.md",
+    "Estudos de programação/DJANGO.md",
     "Estudos de programação/Biblia do programador.md",
     "Estudos de programação/comandos uteis.md",
-    "Estudos de programação/NVIM.md",
-    "Estudos de programação/Python.md",
+    "oldJoplin/SOPHOS/como funciona o web filter-1.md",
+    "oldJoplin/SOPHOS/certificado.md",
     "1- Projeto ou algo que tu tenha orgulho..md",
-    "Entrevistas.md",
-    "Links.md",
     "oldJoplin/SECURITY+/Chapter 8 - Using Risk Management Tools-1.md",
     "Estudos de programação",
     "oldJoplin/SECURITY+/1.2 - Given a scenario, analyze potential indicato-1.md",
@@ -219,10 +238,6 @@
     "oldJoplin/comandos/certificado windows.md",
     "oldJoplin/coisas legais/nishang-1.md",
     "oldJoplin/coisas legais/nishang.md",
-    "oldJoplin/coisas legais/https___pastebin.com_k7cRprfK-1.md",
-    "oldJoplin/coisas legais/https___pastebin.com_k7cRprfK.md",
-    "oldJoplin/ciencia de dados/Teoria.md",
-    "oldJoplin/ciencia de dados/Teoria-1.md",
     "oldJoplin/_resources/6-public-private-route-5.svg",
     "oldJoplin/_resources/6-public-private-route-4.svg",
     "oldJoplin/_resources/6-public-private-route-3.svg",

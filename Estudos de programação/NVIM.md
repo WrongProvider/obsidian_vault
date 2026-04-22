@@ -116,3 +116,13 @@ Quase todo comando no Neovim aceita um número antes.
 - `10j`: Desce 10 linhas.
     
 - `3w`: Pula 3 palavras para a frente.
+
+
+|**Plugin**|**Comando**|**Função**|
+|---|---|---|
+|**Mason**|`:Mason`|Interface para instalar LSPs, Debuggers e Linters.|
+|**Lazy**|`:Lazy`|Atualizar plugins ou ver se algo quebrou.|
+|**Treesitter**|`:TSUpdate`|Atualiza os parsers de sintaxe instalados.|
+|**Telescope**|`<leader>ff`|Busca arquivos no projeto (seu atalho personalizado).|
+|**Telescope**|`<leader>lg`|Busca palavras dentro dos arquivos (Live Grep).|
+|**LSP**|`:LspInfo`|Verifica se o LSP (ex: Pyright ou Gopls) está ativo no arquivo.|
