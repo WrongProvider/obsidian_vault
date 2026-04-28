@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudos de programação/NVIM.md",
+                "file": "Estudos de programação/playwright.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NVIM"
+              "title": "playwright"
             }
           }
         ],
@@ -211,18 +211,19 @@
   },
   "active": "2f3b60d0ed0899f7",
   "lastOpenFiles": [
+    "Estudos de programação/Biblia do programador.md",
+    "Estudos de programação/playwright.md",
+    "Estudos de programação/NVIM.md",
+    "Estudos de programação/comandos uteis.md",
+    "Estudos de programação/DJANGO.md",
+    "Estudos de programação/Python.md",
     "2026-02-26 - comandos uteis para tshoot.md",
     "Entrevistas.md",
     "Sem título.md",
     "README.md",
     "Links.md",
     "Estudos de programação/tests.md",
-    "Estudos de programação/Python.md",
-    "Estudos de programação/NVIM.md",
     "Estudos de programação/git.md",
-    "Estudos de programação/DJANGO.md",
-    "Estudos de programação/Biblia do programador.md",
-    "Estudos de programação/comandos uteis.md",
     "oldJoplin/SOPHOS/como funciona o web filter-1.md",
     "oldJoplin/SOPHOS/certificado.md",
     "1- Projeto ou algo que tu tenha orgulho..md",
@@ -237,7 +238,6 @@
     "oldJoplin/comandos/certificado windows-1.md",
     "oldJoplin/comandos/certificado windows.md",
     "oldJoplin/coisas legais/nishang-1.md",
-    "oldJoplin/coisas legais/nishang.md",
     "oldJoplin/_resources/6-public-private-route-5.svg",
     "oldJoplin/_resources/6-public-private-route-4.svg",
     "oldJoplin/_resources/6-public-private-route-3.svg",
