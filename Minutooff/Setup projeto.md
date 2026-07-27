@@ -337,3 +337,17 @@ adb devices
 |`Unable to load script`|Metro não está rodando|Rodar `npx react-native start`|
 |`react_codegen_safeareacontext`|Versão incompatível|Usar `react-native-safe-area-context@4.8.2`|
 |`Plugin not found`|`settings.gradle` incorreto|Corrigir conforme passo 9|
+
+
+npm install -g eas-cli
+eas login
+eas build:configure
+
+-- client dev
+
+npx expo install expo-dev-client
+
+
+-- link de instalacao pro cliente
+
+eas build --platform android --profile development
