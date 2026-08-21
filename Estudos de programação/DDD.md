@@ -55,77 +55,57 @@ votacoes-service"]
 
   Abaixo está a estrutura de diretórios em Python
   para o repositório ingestion-service:
-
+```BASH
     ingestion-service/
     ├── config/
-    │   └── settings.py              # Variáveis de
-  ambiente (pydantic-settings)
+    │   └── settings.py              # Variáveis de ambiente (pydantic-settings)
     ├── src/
-    │   ├── domain/                  # CAMADA DE
-  DOMÍNIO (Sem dependências externas)
+    │   ├── domain/                  # CAMADA DE DOMÍNIO (Sem dependências externas)
     │   │   ├── aggregates/
-    │   │   │   └── sync_job.py      # Agregado que
-  controla o estado de sincronização
+    │   │   │   └── sync_job.py      # Agregado que controla o estado de sincronização
     │   │   ├── entities/
-    │   │   │   ├── raw_deputado.py  # Entidade
-  interna de validação de dados coletados
+    │   │   │   ├── raw_deputado.py  # Entidade interna de validação de dados coletados
     │   │   │   └── raw_proposicao.py
     │   │   ├── value_objects/
-    │   │   │   ├── periodo.py       # Data de
-  início/fim da busca
-    │   │   │   └── sync_status.py   # Enum:
-  PENDENTE, EM_ANDAMENTO, CONCLUIDO, ERRO
+    │   │   │   ├── periodo.py       # Data de início/fim da busca
+    │   │   │   └── sync_status.py   # Enum: PENDENTE, EM_ANDAMENTO, CONCLUIDO, ERRO
     │   │   ├── events/
     │   │   │   ├── base.py
     │   │   │   ├── deputado_events.py
     │   │   │   └── proposicao_events.py
-    │   │   └── ports/               # Interfaces
-  abstratas (Contratos ABC)
+    │   │   └── ports/               # Interfaces abstratas (Contratos ABC)
     │   │       ├── camara_api_port.py
     │   │       ├── event_publisher_port.py
     │   │       └── sync_repository_port.py
     │   │
-    │   ├── application/             # CAMADA DE
-  APLICAÇÃO (Casos de Uso)
-    │   │   ├── dtos/                # Data Transfer
-  Objects
+    │   ├── application/             # CAMADA DE APLICAÇÃO (Casos de Uso)
+    │   │   ├── dtos/                # Data Transfer Objects
     │   │   │   └── sync_commands.py
     │   │   ├── use_cases/
     │   │   │   ├── sincronizar_deputados.py
     │   │   │   ├── sincronizar_proposicoes.py
     │   │   │   └── sincronizar_despesas.py
     │   │   └── services/
-    │   │       └── retry_policy.py  # Lógica de
-  Retry / Exponential Backoff
+    │   │       └── retry_policy.py  # Lógica de Retry / Exponential Backoff
     │   │
-    │   ├── infrastructure/          # CAMADA DE
-  INFRAESTRUTURA (Adaptadores concretos)
+    │   ├── infrastructure/          # CAMADA DE INFRAESTRUTURA (Adaptadores concretos)
     │   │   ├── adapters/
-    │   │   │   ├── camara_http_client.py  # Consumo
-  da API da Câmara (substitui api_camara.py)
-    │   │   │   ├── ollama_summarizer.py   # Resumos
-  via LLM (substitui ollama_resumo_politico.py)
-    │   │   │   └── rabbitmq_publisher.py  #
-  Publicação de eventos
+    │   │   │   ├── camara_http_client.py  # Consumo da API da Câmara (substitui api_camara.py)
+    │   │   │   ├── ollama_summarizer.py   # Resumos via LLM (substitui ollama_resumo_politico.py)
+    │   │   │   └── rabbitmq_publisher.py  # Publicação de eventos
     │   │   ├── persistence/
-    │   │   │   ├── models.py              # Modelos
-  SQLAlchemy locais (Apenas checkpoints/jobs)
-    │   │   │   └── sync_repository.py     #
-  Implementação do SyncRepositoryPort
+    │   │   │   ├── models.py              # Modelos SQLAlchemy locais (Apenas checkpoints/jobs)
+    │   │   │   └── sync_repository.py     # Implementação do SyncRepositoryPort
     │   │   └── logging/
     │   │       └── logger.py
     │   │
-    │   └── entrypoints/             # PONTOS DE
-  ENTRADA DO SERVIÇO
+    │   └── entrypoints/             # PONTOS DE ENTRADA DO SERVIÇO
     │       ├── cli/
-    │       │   └── main.py          # CLI para
-  execução manual ou scripts
+    │       │   └── main.py          # CLI para execução manual ou scripts
     │       ├── jobs/
-    │       │   └── runner.py        # Executador
-  chamado pelo Airflow / Cron
+    │       │   └── runner.py        # Executador chamado pelo Airflow / Cron
     │       └── api/
-    │           └── health.py        # Endpoints
-  REST de Healthcheck / Metrics (FastAPI leve)
+    │           └── health.py        # Endpoints REST de Healthcheck / Metrics (FastAPI leve)
     │
     ├── tests/
     │   ├── unit/
@@ -134,6 +114,8 @@ votacoes-service"]
     ├── pyproject.toml
     └── README.md
   ──────
+```  
+  
   ### 3. Exemplos Práticos de Código
 
   #### A. O Evento de Domínio
@@ -141,7 +123,7 @@ votacoes-service"]
 
   O evento representa o que aconteceu no domínio de
   ingestão para que outros microserviços reajam:
-
+```PYTHON
     from dataclasses import dataclass
     from datetime import datetime
 
@@ -172,6 +154,7 @@ votacoes-service"]
                     "email": self.email,
                 }
             }
+```
   ──────
   #### B. A Porta da API Externa
   (src/domain/ports/camara_api_port.py)
@@ -179,6 +162,7 @@ votacoes-service"]
   Interface pura que desacopla o caso de uso de
   bibliotecas como httpx ou requests:
 
+```PYTHON
     from abc import ABC, abstractmethod
     from typing import List
     from src.domain.entities.raw_deputado import
@@ -198,6 +182,7 @@ votacoes-service"]
             """Busca detalhes específicos de um
   deputado."""
             pass
+```
   ──────
   #### C. O Caso de Uso
   (src/application/use_cases/sincronizar_deputados.p
@@ -206,6 +191,7 @@ votacoes-service"]
   Contém a orquestração da sincronização sem saber
   como o banco ou a fila funcionam:
 
+```PYTHON
     import uuid
     from datetime import datetime
     from src.domain.ports.camara_api_port import
@@ -260,6 +246,7 @@ votacoes-service"]
   save_checkpoint("DEPUTADOS", legislatura,
   processados)
             return processados
+```
   ──────
   ### Summary das Vantagens dessa Estrutura
 
@@ -273,3 +260,23 @@ votacoes-service"]
   ingestão em containers que sobem apenas no horário
   agendado do Airflow e morrem em seguida, reduzindo
   custos de infraestrutura.
+
+Bounded context
+só traz aquilo que faz sentido pro negócio, é estrito, por exemplo. No QuemVota "deputado" tem dois sentidos: 1- o injest que traz cpf, nome, etc e a chamada da minha API que traz diversas informações como salario, empresas contratadas, etc.
+
+domains
+supporting subdomain -> algo que não é diferencial competitivo no negócio, está apenas ali para prestar suporte.
+
+
+ACL (anti-corruption-layer)
+é um emburrecimento ou filtro para o meu dominio, eu pego somente aquilo que me interessa.
+
+estruturas de pastas:
+
+Adapters -> o mundo exterior, http, bancos, filas, sistemas de arquivos.
+
+data tranfer objects (dtos) -> são estruturas de dados puras, sem regras de negócio
+
+value object -> objeto definido apenas pelo seu atributo (não tem ID proprio), mesmo valor, mesmo objeto
+
+fazer um contrato de entrada, saida, e não misturar os dois pois isso acaba dando em acoplamento (dependencia entre partes do sistema) e vai contra as regras do DDD.
