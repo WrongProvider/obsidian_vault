@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudos de programação/DDD.md",
+                "file": "Estudos de programação/git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DDD"
+              "title": "git"
             }
           }
         ]
@@ -198,8 +198,8 @@
   },
   "active": "2f3b60d0ed0899f7",
   "lastOpenFiles": [
-    "Entrevistas.md",
     "Estudos de programação/DDD.md",
+    "Entrevistas.md",
     "Estudos de programação/DJANGO.md",
     "Estudos de programação/git.md",
     "Estudos de programação/NVIM.md",

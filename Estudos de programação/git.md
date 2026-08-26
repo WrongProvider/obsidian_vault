@@ -57,3 +57,41 @@ git pull origin main
 # 3. (Opcional) Se precisar recuperar algo que estava no stash:
 # git stash pop
 ```
+
+
+# Verificar estado
+git status
+git branch --show-current
+
+# Criar backup
+git branch backup/minha-branch
+
+# Guardar alterações locais
+git stash push --include-untracked -m "backup das alterações locais"
+
+# Atualizar referências remotas
+git fetch origin main
+
+# Criar branch limpa baseada na main
+git switch -c feature/rands/obito-checkauto origin/main
+
+# Reaplicar somente seu commit
+git cherry-pick f41e5298
+
+# Resolver conflito manualmente e marcar como resolvido
+git add caminho/do/arquivo.py
+git cherry-pick --continue
+
+# Cancelar o cherry-pick, se necessário
+git cherry-pick --abort
+
+# Verificar resultado
+git status
+git rev-list --left-right --count origin/main...HEAD
+
+git stash list
+git stash pop stash@{0}
+
+apos resolver conflito
+git add arquivo-resolvido.py
+git commit
