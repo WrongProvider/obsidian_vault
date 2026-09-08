@@ -51,7 +51,9 @@ votacoes-service"]
 ```
 
 
+```
   ### 2. Estrutura de Código Recomendada
+```
 
   Abaixo está a estrutura de diretórios em Python
   para o repositório ingestion-service:

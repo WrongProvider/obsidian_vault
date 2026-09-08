@@ -95,3 +95,8 @@ git stash pop stash@{0}
 apos resolver conflito
 git add arquivo-resolvido.py
 git commit
+
+
+
+#cherrypic
+git -c core.editor=true cherry-pick --continue 2>&1 | tail -8
