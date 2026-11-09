@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudos de programação/git.md",
+                "file": "Estudos de programação/API.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git"
+              "title": "API"
             }
           }
         ]
@@ -198,8 +198,13 @@
   },
   "active": "2f3b60d0ed0899f7",
   "lastOpenFiles": [
-    "Estudos de programação/DDD.md",
+    "Pasted image 20261105171358.png",
+    "Pasted image 20261105171338.png",
+    "Pasted image 20261105171324.png",
+    "Estudos de programação/SQL.md",
+    "Estudos de programação/API.md",
     "Estudos de programação/git.md",
+    "Estudos de programação/DDD.md",
     "Entrevistas.md",
     "Estudos de programação/DJANGO.md",
     "Estudos de programação/NVIM.md",
@@ -209,7 +214,6 @@
     "Estudos de programação/tests.md",
     "Estudos de programação/comandos uteis.md",
     "Estudos de programação/Python.md",
-    "Estudos de programação/SQL.md",
     "Estudos de programação/docker.md",
     "Estudos de programação/alembic.md",
     "Minutooff/Setup projeto.md",
@@ -225,9 +229,7 @@
     "oldJoplin/SOPHOS/como funciona o web filter-1.md",
     "oldJoplin/SOPHOS/certificado.md",
     "1- Projeto ou algo que tu tenha orgulho..md",
-    "oldJoplin/SECURITY+/Chapter 8 - Using Risk Management Tools-1.md",
     "Estudos de programação",
-    "oldJoplin/SECURITY+/1.2 - Given a scenario, analyze potential indicato-1.md",
     "oldJoplin/_resources/6-public-private-route-5.svg",
     "oldJoplin/_resources/6-public-private-route-4.svg",
     "oldJoplin/_resources/6-public-private-route-3.svg",
@@ -236,8 +238,6 @@
     "oldJoplin/_resources/02ab86629aac1c6dc359a0c856b0f6a8-1.png",
     "oldJoplin/_resources/6f894bc0347f59775d7f06b1773a80fe-1.png",
     "oldJoplin/_resources/1ebfdcbd7e1c8798155fb66882c1a565-1.png",
-    "oldJoplin/_resources/20b4813894c63daa036a219c486b531f-1.png",
-    "oldJoplin/_resources/0c5231f772747ec4c6b8ca50e167c3cf-1.png",
     "oldJoplin/SentinelOne",
     "oldJoplin/B - Azure",
     "oldJoplin/B - Bluetem SOC-CSIRT",
